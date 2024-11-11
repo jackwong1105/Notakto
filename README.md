@@ -1,4 +1,5 @@
 # Notakto
+
 Notakto is a game played by two players on multiple 3x3 game boards. It is said to be invented by Bob
 In this project, the following game rules are used.
 There are only two 3x3 game boards, which are empty initially.
@@ -31,8 +32,8 @@ row of crosses). Otherwise, it returns 0.
 Placing Cross by Human Player
 Depending on who the current player is, the main() function prints one of the following messages:
 ②
-# Player 1's turn #
-# Player 2's turn #
+ Player 1's turn #
+ Player 2's turn #
 and then invokes the placeCrossByHumanPlayer() function, which first prints the following message to
 ask the current human player to choose the game board:
 Choose the game board:
